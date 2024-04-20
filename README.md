@@ -14,5 +14,11 @@ As a user, I want to categorize items in my inventory, so that I can keep my rec
 As a user, I want to be able to view details about each item in my inventory.
 
 MVP Goals
+To get the items page up 
+To get an login with username, password, and email avalible to work for making an account and for existing customer with a working login
+
 
 Stretch Goals
+I want to be able to add style in make it come to make look like a actual app.
+I want to be able to get the buttoms working to go to the different pages
+I want to get the app to work through with less hicups. 
