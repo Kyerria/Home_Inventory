@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/app.css">
+  <script src="/server.js"></script>
+		<title>Home Page</title>
+
+	</head>
+	<body>
+        <h1>Home Inventory</h1>
+        <nav>
+            <a href="/items/new">Create New Item</a>
+          </nav>
+          <div class="login-section">
+            <h2>Login</h2>
+            <form action="/login" method="POST">
+            <form action="register" method="POST">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="usermame" required><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br>
+
+                <label for="email">Email Address:</label>
+                <input for="email" id="email" name="email" required><br>
+
+                <input type="submit" value="Login">
+                <input type="submit" value="Register">
+            </form>
+          </div>
+
+          <div class ="items-list">
+            <% items.forEach(function(item { %>
+                <div class="item">
+                    <h2><% =item.name %></h2>
+                    <p>owner: <%= item.owner %></p>
+                    <p>Description: <%= item.description %></p>
+                    <p>Category: <%= item.category %></p>
+                    <p>Quantity: <% item.quantity %></p>
+                    <p>Location: <% item.location %></p>
+                    <p>AddedAt: <% item.addedAt %></p>
+                    <img src ="<%= item.image %>" alt="<% item.name %>">
+                </div>
+            <% })); %>
+          </div>
+
+    </body>
+</html>
