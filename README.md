@@ -7,12 +7,12 @@ Models including field names and their datatypes
 A list of routes (e.g. POST /pins/ allows users to post a picture of a pin)
 
 Wireframes
-Wireframes with basic page layouts
-Copy and paste or drag and drop your images here.
+![inventory](image.png)
 
-User Stories
-User stories detailing app functionality
-Add user stories following the As a [type of user], I want [what the user wants], so that [what it helps accomplish] format.
+As a homeowner, I want to be able to add items to my inventory, so I can keep track of my belongins.
+As a user, I want to categorize items in my inventory, so that I can keep my records.
+As a user, I want to be able to view details about each item in my inventory.
 
 MVP Goals
+
 Stretch Goals
