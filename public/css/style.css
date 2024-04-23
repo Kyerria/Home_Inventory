@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3e5f5; 
+    color: #4527a0; 
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #7b1fa2; 
+    color: #fff; 
+    padding: 20px;
+    text-align: center;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+footer {
+    background-color: #512da8; 
+    color: #fff; 
+    padding: 20px;
+    text-align: center;
+}
+
+#login-form {
+    background-color: #fff; 
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+#login-form input[type="text"],
+#login-form input[type="password"],
+#login-form input[type="email"],
+#login-form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+#login-form button {
+    background-color: #7b1fa2; 
+    color: #fff; 
+    cursor: pointer;
+}
+
+#login-form button:hover {
+    background-color: #4527a0;
+}

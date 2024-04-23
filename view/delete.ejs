@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Delete Fruit</title>
+</head>
+<body>
+    <h1>Delete Fruit</h1>
+    <p>Are you sure you want to delete this fruit?</p>
+    <form action="/fruits/<%= fruit.id %>?_method=DELETE" method="POST">
+        <input type="submit" value="Delete">
+    </form>
+    <a href="/fruits">Cancel</a>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Show Inventory</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body>
+    <h1>Item Details</h1>
+    <p>Name: <%= item.name %></p>
+    <p>Category: <%= item.category %></p>
+    <p>Description: <%= item.description %></p>
+    <p>Image: <img src="<%= item.image %>" alt="<%= item.name %>"></p>
+    <p>Quantity: <%= item.quantity %></p>
+    <p>Location: <%= item.location %></p>
+    <p>User: <%= item.user %></p>
+    <p>Price: $<%= item.price.toFixed(2) %></p>
+    <nav>
+        <a href="/items/<%= item.id %>/edit">Edit</a>
+        <a href="/items">Back to Inventory</a>
+    </nav>
+</body>
+</html>

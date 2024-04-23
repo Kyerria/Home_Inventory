@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Inventory</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Home Inventory</h1>
+        <h2>The purpose of this app is to help individuals keep track of their belongings, household items, and personal possessions.<br>
+            Users can categorize their items by description or by images. They can also update or delete the image if needed. This app is particularly useful when moving, as it saves the hassle of going through boxes and checking inventory.<br>
+            It's an easy-to-use and user-friendly app for managing items, and can even be used with roommates.</h2>
+    </header>
+    
+    <main>
+        <h2>Inventory Items</h2>
+        <ul>
+            <% items.forEach(item => { %>
+                <li>
+                    <h3><%= item.name %></h3>
+                    <p><%= item.description %></p>
+                    <p>Category: <%= item.category %></p>
+                    <p>Quantity: <%= item.quantity %></p>
+                    <p>Price: <%= item.price %></p>
+                    <p>Location: <% item.location %></p>
+                
+                </li>
+            <% }); %>
+        </ul>
+    </main>
+
+    <footer>
+        <p> Contact: Homeapp@gmail.com</p>
+        <p>&copy; 2024 Your Home Inventory App.</p>
+    </footer>
+</body>
+</html>
