@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
     font-family: Arial, sans-serif;
     background-color: #f3e5f5; 
     color: #4527a0; 
@@ -58,4 +59,54 @@ footer {
 
 #login-form button:hover {
     background-color: #4527a0;
+=======
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: #333;
+}
+nav {
+    background-color: #007bff;
+    padding: 10px;
+}
+nav a {
+    color:#fff;
+    padding:10px;
+}
+nav a {
+    color:#fff;
+    text-decoration: none;
+    margin-right:10px;
+}
+.login-section h2 {
+    margin-bottom: 10px;
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="submit"] {
+    width: 100% ;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.item-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+.item img {
+    max-width: 100%;
+    height:auto;
+>>>>>>> dc9d938550745bae8a53c404b8824e89729421d3
 }

@@ -1,0 +1,25 @@
+<!-- Form for editing -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Edit Items Here</title>
+	</head>
+	<body>
+        <h1>Edit Item</h1>
+        <form action ="/items/:id" method="POST">
+            <input type ="hidden" name="_method" value="PUT">
+            <label for ="name"></label><br>
+            
+            <input type="text" id="name" name="name" value="Item Name"><br>
+            
+            <label for ="description">Description:</label><br>
+            
+            <textarea id="description" name="description">Item Description</textarea><br>
+
+            <label for ="quantity">Quantity:</label><br>
+            
+            <input type="number" id="quantity" name="quantity" value="5">
+
+        </form>
